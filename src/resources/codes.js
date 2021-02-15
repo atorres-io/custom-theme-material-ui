@@ -12,4 +12,5 @@ function palette() {
 	};
 }
 
+
 export default { colorTheme, palette };
