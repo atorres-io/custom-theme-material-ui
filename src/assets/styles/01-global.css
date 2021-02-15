@@ -1,0 +1,82 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --codetheme-canvas: #272c34;
+  --codetheme-border: #30363d;
+  --codetheme-blue-dark: #4a92d6;
+  --codetheme-blue: #4cc1dd;
+  --codetheme-live: #ffffff;
+  --codetheme-yellow-soft: #dccb7c;
+  --codetheme-yellow: #f0d701;
+  --codetheme-green: #8de78a;
+  --codetheme-pink: #da6698;
+  --codetheme-gray: #c9d1d9;
+  --codetheme-brown: #ca8748;
+  --color-sidebar: #f6f8fa;
+  --color-border: #e1e4e8;
+  --color-main: #ffffff;
+  --color-text: #000000;
+  --color-text-soft: #0000008a;
+  --color-text-unfocus: #000000;
+  --color-picker: #ffffff;
+  --color-picker-border: transparent;
+  --color-input-border: #0000003b;
+  --color-button-text-disabled: #00000042;
+  --color-button-border-disabled: #0000001f;
+  --color-button-background-disabled: #0000001f;
+  --color-boxes: #ffffff;
+  --color-card: #f9f9f9;
+  --color-card-border: transparent;
+  --color-card-shadow: rgb(0 0 0 / 24%);
+}
+
+:root[data-theme='dark'] {
+  --color-sidebar: #161b22;
+  --color-border: #30363d;
+  --color-main: #0d1117;
+  --color-text: #ffffff;
+  --color-text-soft: #ffffff8a;
+  --color-text-unfocus: #c9d1d9;
+  --color-picker: #272c34;
+  --color-picker-border: #30363d;
+  --color-input-border: #ffffff3b;
+  --color-button-text-disabled: #ffffff42;
+  --color-button-border-disabled: #ffffff1f;
+  --color-button-background-disabled: #ffffff1f;
+  --color-boxes: #272c34;
+  --color-card: #333333;
+  --color-card-border: #30363d;
+  --color-card-shadow: rgb(255 255 255 / 15%);
+}
+
+html {
+  width: 100%;
+  height: 100%;
+  scroll-behavior: smooth;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+div[id="root"] {
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+}
+
+@import "./02-general.css";
+@import "./03-components.css";
+@import "./04-objects.css";
+@import "./05-utilities.css";
