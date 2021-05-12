@@ -23,7 +23,7 @@ This project shows a simple screen (Guide) where you can customize the Material 
 
 ## 📁 Tutorial
 
-As easy as `npm install` and `npm start`. Be careful with your version of node and npm, thank you.
+As easy as `npm install` and `npm start`. Be careful with your version of node and npm, thank you. If you delete the comment you will be able to see the final object in the console.
 
 ## 👏 Creator
 
